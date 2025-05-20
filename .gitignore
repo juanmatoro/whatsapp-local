@@ -1,0 +1,52 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.DS_Store
+.env
+.env.* # Si tienes más de uno
+
+# Electron
+/out/
+/release/
+/*.local/
+*.log
+
+# Venom session data (ajusta si usas otra ruta)
+tokens/
+session-whatsapp/
+
+# MacOS
+Icon?
+.Trashes
+.Spotlight-V100
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode
+.vscode/
+.history/
+
+# Electron-builder output
+*.dmg
+*.exe
+*.app
+*.snap
+*.deb
+*.rpm
+*.msi
+*.zip
+*.7z
+
+# Optional: evitar subir screenshots temporales u otras pruebas
+*.png
+*.jpg
+*.jpeg
